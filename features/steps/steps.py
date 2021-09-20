@@ -12,6 +12,7 @@ def step_impl(context):
     context.driver = webdriver.Chrome(options=chrome_options)
     context.driver.get("https://todomvc.com/examples/angularjs/#/")
     context.driver.implicitly_wait(100)
+    # "ljlkl"
 
 
 @when(u'I add new task "Clean my house"')
